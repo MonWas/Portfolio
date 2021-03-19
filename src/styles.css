@@ -112,7 +112,7 @@ p {
   color: var(--primary-color);
 }
 
-@media {
+@media (max-width: 576px) {
   h1 {
     font-size: 48px;
     line-height: 64px;
