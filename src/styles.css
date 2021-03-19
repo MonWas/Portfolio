@@ -1,34 +1,42 @@
+:root {
+  --primary-color: #1a4578;
+  --secondary-color: #cbb26a;
+}
+
 body {
+  background-color: #d8c690;
+  color: var(--primary-color);
   font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
 }
 
 h1 {
-  margin-bottom: 0.5rem;
-  margin-top: 0;
-  color: #1a4578;
-  line-height: 128px;
+  color: var(--primary-color);
   font-size: 96px;
   font-style: normal;
   font-weight: bold;
+  line-height: 128px;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 h2 {
-  margin-top: 0;
-  color: #1a4578;
-  line-height: 36px;
+  color: var(--primary-color);
   font-size: 24px;
   font-style: normal;
   font-weight: normal;
+  line-height: 36px;
+  margin-top: 0;
 }
 
 .hero {
-  background: #d8c690;
-  padding: 160px 20px;
+  background: var(--secondary-color);
+  padding: 80px 20px 30px 20px;
   text-align: center;
 }
 
 .hero p {
-  color: #1a4578;
+  color: var(--primary-color);
   line-height: 54px;
   font-size: 36px;
   font-style: normal;
@@ -37,10 +45,85 @@ h2 {
 }
 
 .btn-branding {
-  background: #1a4578;
+  background-color: var(--primary-color);
   border-radius: 4px;
-  color: #cbb26a;
+  color: var(--secondary-color);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 27px;
+}
+
+.project-description {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  padding: 120px 60px;
+}
+
+.project-description h2 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 85px;
+}
+
+.project-description p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.project-image {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  padding: 60px 60px;
+}
+
+.home-img {
+  border: 6px solid var(--secondary-color);
+  border-radius: 4px;
+}
+
+.btn-project {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-project:hover {
+  background-color: var(--secondary-color);
+  border: 3px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media {
+  h1 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+
+  .project-description {
+    padding: 60px 30px;
+  }
+
+  .project-description h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
 }
