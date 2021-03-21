@@ -29,15 +29,11 @@ h2 {
   margin-top: 0;
 }
 
-.navbar-brand {
-  color: var(--secondary-color);
-}
-
-.nav-link {
-  color: var(--secondary-color);
-}
-
-button.navbar-toggler {
+.navbar-brand,
+.nav-link,
+.navbar-toggler,
+.navbar-toggler-icon,
+#navbarNavAltMarkup {
   color: var(--secondary-color);
 }
 
@@ -60,14 +56,14 @@ button.navbar-toggler {
   padding: 160px 20px;
 }
 
-.about-section h1 {
+.about-section h2 {
   line-height: 85px;
   font-size: 64px;
   font-style: normal;
   font-weight: bold;
 }
 
-.about-section h2 {
+.about-section h3 {
   line-height: 27px;
   font-size: 18px;
   font-style: normal;
@@ -83,11 +79,33 @@ button.navbar-toggler {
 
 .about-section-content {
   margin: 30px;
-  padding: 60px 60px;
+  padding: 60px;
 }
 
 .about-section img {
   width: 70%;
+}
+
+.content h1 {
+  line-height: 85px;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: bold;
+  padding: 80px;
+}
+
+.content h3 {
+  line-height: 36px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.content p {
+  line-height: 21px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
 }
 
 .btn-branding {
