@@ -39,6 +39,7 @@ h2 {
 
 .hero {
   background: var(--secondary-color);
+  clip-path: circle(40%);
   padding: 80px 20px 30px 20px;
   text-align: center;
 }
@@ -174,6 +175,23 @@ p {
   background-color: var(--secondary-color);
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+.banner {
+  background-color: #cbb26a;
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  padding: 80px 20px 30px 20px;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+}
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 @media (max-width: 576px) {
