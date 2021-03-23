@@ -34,7 +34,11 @@ h2 {
 .navbar-toggler,
 .navbar-toggler-icon,
 #navbarNavAltMarkup {
-  color: var(--secondary-color);
+  color: var(--secondary-color) !important;
+}
+
+.nav-link.active {
+  background-color: #081524;
 }
 
 .hero {
