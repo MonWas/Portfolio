@@ -19,10 +19,10 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
       rel="stylesheet"
     />
-    <title>Contact - Front End Development - Aquarius Web Dev</title>
+    <title>Contact - Front End Development - Aquarius</title>
     <meta
       name="description"
-      content="Contact - Front End Development - Aquarius Web Dev"
+      content="If you’re ready to get your web project started, just send me a message below and I’ll be in touch shortly."
     />
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
@@ -75,52 +75,62 @@
     <div class="hero mb-5">
       <h1 class="mb-4">Contact</h1>
       <h2 class="mb-5">Fill out the form below and I'll reach out to get your project underway.</h2>
-      <div class="mb-4">
+      <div class="mb-5">
         <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
     <div class="container form mb-5">
-      <form action="Contact">
+      <form action="Contact" class="rounded">
         <div class="row mb-5">
           <div class="col-6">
             <label for="Name" class="form-label">Name</label>
-            <input type="text" class="form-control" />
+            <input type="text" class="form-control" required/>
           </div>
           <div class="col-6">
             <label for="Email" class="form-label">Email</label>
-            <input type="email" class="form-control" />
+            <input type="email" class="form-control" required/>
           </div>
         </div>
         <div class="row mb-5">
           <div class="col">
-            <label for="Message" class="form-label">Message</label>
-            <input type="text" class="form-control" style="height: 100px" />
+            <label for="Message" class="form-label">How may I assist you?</label>
+            <textarea type="text" class="form-control" style="height: 200px" required></textarea>
           </div>
         </div>
-      </form>
-      <div class="mb-4">
+        <div class="mb-4">
         <a href="/contact.html" class="btn btn-branding">Submit</a>
       </div>
+      </form>
     </div>
      <div class="banner mb-5">
       <h2 class="mb-5">Would you like to discuss a project?</h2>
       <div class="social-links mb-5">
-        <a href="mailto:MoniqueWassermann1@gmail.com" target="_blank">
+        <a
+          href="mailto:MoniqueWassermann1@gmail.com"
+          target="_blank"
+          title="Email Address"
+        >
           <i class="far fa-envelope"></i>
         </a>
-        <a href="https://github.com/MonWas" target="_blank">
+        <a
+          href="https://github.com/MonWas"
+          target="_blank"
+          title="GitHub Account"
+        >
           <i class="fab fa-github"></i>
-        </a>
-        <a href="https://instagram.com/mons_codes" target="_blank">
-          <i class="fab fa-instagram"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/moniquewassermann/"
           target="_blank"
+          title="LinkedIn Profile"
         >
           <i class="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://twitter.com/mons_codes" target="_blank">
+        <a
+          href="https://twitter.com/mons_codes"
+          target="_blank"
+          title="Twitter Account"
+        >
           <i class="fab fa-twitter"></i>
         </a>
       </div>
@@ -128,6 +138,7 @@
         <a href="/contact.html" class="btn btn-branding">Reach out</a>
       </div>
     </div>
+  </div>
     <footer>
       <div class="container">
         <div class="legal">
@@ -135,7 +146,6 @@
         </div>
       </div>
     </footer>
-    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
