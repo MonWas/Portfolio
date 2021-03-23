@@ -39,6 +39,9 @@ h2 {
 
 .nav-link.active {
   background-color: #081524;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 10px 14px;
 }
 
 .hero {
@@ -126,6 +129,22 @@ h2 {
   background-color: var(--secondary-color);
   border: 3px solid var(--primary-color);
   color: var(--primary-color);
+}
+
+.social-links a {
+  background-color: #d8c690;
+  border-radius: 50%;
+  color: #1a4578;
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 10px 14px;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  background-color: #1a4578;
+  color: #cbb26a;
 }
 
 p {
